@@ -70,6 +70,20 @@ nav ul li {
   text-decoration: none;
   font-weight: 700;
 }
+
+.header__nav-color{
+  border: 1px white solid;
+  background-color: #001925;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 300ms ease;
+}
+.header__nav-color:hover{
+  color: #001925;
+  background-color: white;
+  border: #001925 1px solid;
+}
 .nav__active-link {
   color: #afaeae;
 }
@@ -558,6 +572,39 @@ footer a {
 .linkedin:hover {
   color: #0072b1;
 }
+/* Service details popup*/
+.details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #232323e0;
+  color:white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+.details__button{
+  border: 1px white solid;
+  background-color: #001925;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 300ms ease;
+}
+.details__button:hover{
+  color: #001925;
+  background-color: white;
+  border: #001925 1px solid;
+}
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .container {
