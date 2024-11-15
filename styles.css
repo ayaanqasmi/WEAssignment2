@@ -309,6 +309,68 @@ section {
   font-size: 16px;
   font-weight: 500;
 }
+#add-testimonial-form {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#add-testimonial-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#add-testimonial-form input,
+#add-testimonial-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+#add-testimonial-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-testimonial-form button:hover {
+  background-color: #45a049;
+}
+
+/* Remove button styling */
+#remove-testimonial {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+#remove-testimonial:hover {
+  background-color: #e53935;
+}
+.list h2{
+  color: white;
+}
 
 /*Services*/
 
